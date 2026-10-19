@@ -3,8 +3,8 @@ allowBuilds:
   '@scarf/scarf': false
   argon2: true
   prisma: true
-onlyBuiltDependencies:
-  - argon2
-  - '@nestjs/core'
-  - '@prisma/client'
-  - prisma"
+  onlyBuiltDependencies:
+    - argon2
+    - '@nestjs/core'
+    - '@prisma/client'
+    - prisma

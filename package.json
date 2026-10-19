@@ -9,6 +9,8 @@
     "build:clean": "rimraf dist *.tsbuildinfo && nest build",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "nest start",
+    "db:up": "node src/scripts/db-up.mjs",
+    "start:dev-d": "pnpm db:up && nest start --watch",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
