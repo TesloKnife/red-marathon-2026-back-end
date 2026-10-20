@@ -10,6 +10,10 @@ REST API для проекта марафона: социальная сеть �
 
 ---
 
+## После каждого изменения на backend
+
+pnpm openapi:json
+
 ## Что понадобится
 
 - **Node.js 20+** — https://nodejs.org
